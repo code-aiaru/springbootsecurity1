@@ -1,0 +1,26 @@
+@import url(/css/common/reset.css);
+@import url(/css/common/header.css);
+@import url(/css/common/footer.css);
+/*index*/
+.container{
+  width:100%;
+}
+
+.container .index{
+  display:flex;
+  justify-content:center;
+    padding:50px;
+    box-sizing:border-box;
+}
+.container .index .index-con{
+  flex-basis:1600px;
+  height: calc( 100Vh - 90px - 200px - 100px );
+
+  font-size:50px;
+  color:#000;
+  background:url(/images/index/index.jpg) no-repeat 50%/cover ;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+ }
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{fragments/layout/baseLayout}"
+>
+<th:block layout:fragment="title">
+  <title>login OK page</title>
+</th:block>
+<th:block layout:fragment="css">
+  <link rel="stylesheet" th:href="@{/css/index.css}">
+</th:block>
+<th:block layout:fragment="javascript">
+  <script th:src="@{/js/index.js}"></script>
+</th:block>
+<th:block layout:fragment="containerFragment">
+  <div class="container">
+    <div class="index">
+      <div class="index-con">
+        LOGIN OK
+      </div>
+    </div>
+  </div>
+</th:block>
+
+</html>
