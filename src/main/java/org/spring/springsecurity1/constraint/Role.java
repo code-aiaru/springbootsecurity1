@@ -1,5 +1,5 @@
-package org.spring.springsecurity1.constraint;
+package org.spring.springsecurity1.constrant;
 
 public enum Role {
-    ADMIN, MANAGER, MEMBMER,
+    ADMIN,MANAGER,MEMBER
 }

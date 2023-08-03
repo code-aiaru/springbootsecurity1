@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<div class="header" th:fragment="headerFragment">
+  <div class="nav">
+    <h1 class="logo"><a th:href="@{/}"><img th:src="@{/images/logo.png}" alt=""></a></h1>
+    <div class="gnb">
+      <ul>
+        <li><a th:href="@{/index}">HOME</a></li>
+        <li><a th:href="@{/shop}">SHOP</a></li>
+        <li><a th:href="@{/member}">MEMBER</a></li>
+        <li><a th:href="@{/manager}">MANAGER</a></li>
+        <li><a th:href="@{/admin}">ADMIN</a></li>
+        <li><a th:href="@{/member/logOut}">LOGOUT</a></li>
+        <li><a th:href="@{/member/join}">JOIN</a></li>
+        <li><a th:href="@{/member/login}">LOGIN</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</html>
